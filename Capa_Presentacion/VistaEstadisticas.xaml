@@ -1,0 +1,59 @@
+﻿<UserControl x:Class="Capa_Presentacion.VistaEstadisticas"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
+             mc:Ignorable="d"  Height="703" Width="949" Loaded="UserControl_Loaded"
+             >
+
+    <Grid Background="LightSteelBlue" Margin="0,0,0,10">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="350"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Label Content="Seleccione mes" Style="{StaticResource Label1}"   VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Grid.Column="0"/>
+        <Grid Grid.Row="1">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <DatePicker x:Name="datePickerFecha" Grid.Column="1" SelectedDateChanged="DatePickerFecha_SelectedDateChanged" Margin="10,0,0,82" />
+            <Label Content="Pedidos diarios"  Style="{StaticResource Label2}" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,0,0,10" />
+            <Label Content="Artículos vendidos" Style="{StaticResource Label2}" VerticalAlignment="Bottom" HorizontalAlignment="Left" Grid.Column="2" Margin="0,0,0,10"/>
+        </Grid>
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <lvc:CartesianChart x:Name="graficaBarras" Series="{Binding}" LegendLocation="Left">
+                <lvc:CartesianChart.AxisX>
+                    <lvc:Axis Title="Dias" Labels="{Binding Labels}"></lvc:Axis>
+                </lvc:CartesianChart.AxisX>
+                <lvc:CartesianChart.AxisY>
+                    <lvc:Axis Title="Pedidos"   LabelFormatter="{Binding Formatter}"></lvc:Axis>
+                </lvc:CartesianChart.AxisY>
+            </lvc:CartesianChart>
+            <lvc:PieChart LegendLocation="Bottom" Hoverable="False" DataTooltip="{x:Null}" Grid.Column="1" Grid.Row="2">
+                <lvc:PieChart.Series>
+                    <lvc:PieSeries x:Name ="porcionTelevisores" Foreground="Black" Title="Televisores" Values="0" DataLabels="True"
+                               LabelPoint="{Binding PointLabel}"/>
+                    <lvc:PieSeries x:Name ="porcionCamaras" Title="Cámaras" Values="0" DataLabels="True" 
+                               LabelPoint="{Binding PointLabel}"/>
+                    <lvc:PieSeries x:Name ="porcionMemorias" Title="Memorias" Values="0" DataLabels="True" 
+                               LabelPoint="{Binding PointLabel}"/>
+                    <lvc:PieSeries x:Name ="porcionObjetivos" Title="Objetivos" Values="0" DataLabels="True" 
+                               LabelPoint="{Binding PointLabel}"/>
+                </lvc:PieChart.Series>
+            </lvc:PieChart>
+        </Grid>
+
+    </Grid>
+</UserControl>

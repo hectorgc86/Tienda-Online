@@ -1,0 +1,122 @@
+﻿<UserControl x:Class="Capa_Presentacion.VistaDocumento"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+       Height="703" Width="949"
+       Background="LightSteelBlue">
+    <DocumentViewer Margin="17,27,24,67" Name="documentViewer1">
+        <FixedDocument Name="facturaReport">
+            <PageContent>
+                <FixedPage>
+                    <DockPanel x:Name="dockPanelFactura">
+                        <StackPanel Orientation="Vertical" Margin="50,0,0,0">
+                            <Label FontSize="20" FontWeight="Bold" Margin="0,0,0,50" HorizontalContentAlignment="Center">FACTURA</Label>
+                            <StackPanel Orientation="Horizontal">
+                                <StackPanel Orientation="Vertical">
+                                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                                        <Label FontSize="14" FontWeight="Bold" VerticalAlignment="Center">Nombre</Label>
+                                        <TextBlock  FontSize="14" FontFamily="Arial" Text="{Binding Nombre}" VerticalAlignment="Center"></TextBlock>
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                                        <Label FontSize="14" FontWeight="Bold" VerticalAlignment="Center">Dirección</Label>
+                                        <TextBlock FontSize="14" FontFamily="Arial" Text="{Binding Direccion}" VerticalAlignment="Center"></TextBlock>
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                                        <Label FontSize="14" FontWeight="Bold" VerticalAlignment="Center">Localidad</Label>
+                                        <TextBlock FontSize="14" FontFamily="Arial" Text="{Binding Localidad}" VerticalAlignment="Center"></TextBlock>
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                                        <Label FontSize="14" FontWeight="Bold" VerticalAlignment="Center">Nif</Label>
+                                        <TextBlock FontSize="14" FontFamily="Arial" Text="{Binding Dni}" VerticalAlignment="Center"></TextBlock>
+                                    </StackPanel>
+                                </StackPanel>
+                                <StackPanel Orientation="Vertical" HorizontalAlignment="Right" Margin="50,0,0,0">
+                                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                                        <Label FontSize="14" FontWeight="Bold" VerticalAlignment="Center">Empresa</Label>
+                                        <TextBlock  FontSize="14" FontFamily="Arial" Text="Tienda WPF" VerticalAlignment="Center"></TextBlock>
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                                        <Label FontSize="14" FontWeight="Bold" VerticalAlignment="Center">Dirección</Label>
+                                        <TextBlock FontSize="14" FontFamily="Arial" Text="Calle Lillo Juan, 128, 03690" VerticalAlignment="Center"></TextBlock>
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                                        <Label FontSize="14" FontWeight="Bold" VerticalAlignment="Center">Localidad</Label>
+                                        <TextBlock FontSize="14" FontFamily="Arial" Text="Alicante" VerticalAlignment="Center"></TextBlock>
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                                        <Label FontSize="14" FontWeight="Bold" VerticalAlignment="Center">CIF</Label>
+                                        <TextBlock FontSize="14" FontFamily="Arial" Text="54573855F" VerticalAlignment="Center"></TextBlock>
+                                    </StackPanel>
+                                </StackPanel>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="0,80,0,0">
+                                <Label FontSize="18" FontWeight="Bold" VerticalAlignment="Center">Nº pedido</Label>
+                                <TextBlock x:Name="numPedido" FontSize="18" FontFamily="Arial" VerticalAlignment="Center" Margin="5,0,0,0"></TextBlock>
+                            </StackPanel>
+                            <ListView x:Name="listViewFactura" BorderThickness="0" Margin="0,20,0,0" FontSize="14">
+                                <ListView.View>
+                                    <GridView x:Name="gridReport">
+                                        <GridViewColumn Header="Fecha" DisplayMemberBinding="{Binding Path=Fecha}">
+                                            <GridViewColumn.CellTemplate>
+                                                <DataTemplate>
+                                                    <Label/>
+                                                </DataTemplate>
+                                            </GridViewColumn.CellTemplate>
+                                        </GridViewColumn>
+                                        <GridViewColumn Header="Cantidad" DisplayMemberBinding="{Binding Path=Cantidad}">
+                                            <GridViewColumn.CellTemplate>
+                                                <DataTemplate>
+                                                    <Label/>
+                                                </DataTemplate>
+                                            </GridViewColumn.CellTemplate>
+                                        </GridViewColumn>
+                                        <GridViewColumn Header="Descripción" DisplayMemberBinding="{Binding Path=Descripcion}">
+                                            <GridViewColumn.CellTemplate>
+                                                <DataTemplate>
+                                                    <Label/>
+                                                </DataTemplate>
+                                            </GridViewColumn.CellTemplate>
+                                        </GridViewColumn>
+                                        <GridViewColumn Header="Importe Unitario" DisplayMemberBinding="{Binding Path=ImporteUnitario,StringFormat={}{0:0.####}}">
+                                            <GridViewColumn.CellTemplate>
+                                                <DataTemplate>
+                                                    <Label/>
+                                                </DataTemplate>
+                                            </GridViewColumn.CellTemplate>
+                                        </GridViewColumn>
+                                        <GridViewColumn Header="Importe neto" DisplayMemberBinding="{Binding Path=Importe,StringFormat={}{0:0.####}}">
+                                            <GridViewColumn.CellTemplate>
+                                                <DataTemplate>
+                                                    <Label/>
+                                                </DataTemplate>
+                                            </GridViewColumn.CellTemplate>
+                                        </GridViewColumn>
+                                        <GridViewColumn Header="Total" DisplayMemberBinding="{Binding Path=Total,StringFormat={}{0:0.####}}">
+                                            <GridViewColumn.CellTemplate>
+                                                <DataTemplate>
+                                                    <Label/>
+                                                </DataTemplate>
+                                            </GridViewColumn.CellTemplate>
+                                        </GridViewColumn>
+                                    </GridView>
+                                </ListView.View>
+                            </ListView>
+                            <StackPanel Orientation="Horizontal" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="0,500,0,0">
+                                <Label FontSize="14" FontWeight="Bold" VerticalAlignment="Center" Margin="0,0,10,0">Base imponible</Label>
+                                <TextBlock x:Name="tbBase" FontSize="14" FontFamily="Arial" Text="{Binding Base}" Margin="0,0,30,0" VerticalAlignment="Center"></TextBlock>
+                                <Label FontSize="14" FontWeight="Bold" VerticalAlignment="Center" Margin="0,0,10,0">IVA</Label>
+                                <TextBlock x:Name="tbIVA" FontSize="14" FontFamily="Arial" Text="{Binding Dni}" Margin="0,0,30,0" VerticalAlignment="Center"></TextBlock>
+                                <Label FontSize="14" FontWeight="Bold" VerticalAlignment="Center" Margin="0,0,10,0">Total IVA</Label>
+                                <TextBlock x:Name="tbTotalIVA" FontSize="14" FontFamily="Arial" Text="{Binding Dni}" Margin="0,0,30,0" VerticalAlignment="Center"></TextBlock>
+                                <Label FontSize="14" FontWeight="Bold" VerticalAlignment="Center" Margin="0,0,10,0">Total Factura</Label>
+                                <TextBlock x:Name="tbTotalFactura" FontSize="14" FontFamily="Arial" Text="{Binding Dni}" Margin="0,0,30,0" VerticalAlignment="Center"></TextBlock>
+                            </StackPanel>
+                        </StackPanel>
+                    </DockPanel>
+                </FixedPage>
+            </PageContent>
+        </FixedDocument>
+    </DocumentViewer>
+</UserControl>
