@@ -61,36 +61,122 @@ namespace Capa_Presentacion.Properties {
         }
         
         /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Icon similar a (Icono).
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Icon icono {
+        internal static System.Drawing.Bitmap abouticonblack {
             get {
-                object obj = ResourceManager.GetObject("icono", resourceCulture);
-                return ((System.Drawing.Icon)(obj));
+                object obj = ResourceManager.GetObject("abouticonblack", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a {\rtf1\ansi\ansicpg1252\cocoartf2511
-        ///\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica-Bold;\f1\fswiss\fcharset0 Helvetica;}
-        ///{\colortbl;\red255\green255\blue255;}
-        ///{\*\expandedcolortbl;;}
-        ///{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid1\&apos;02\&apos;00.;}{\levelnumbers\&apos;01;}\fi-360\li720\lin720 }{\listname ;}\listid1}
-        ///{\list\listtemplat [resto de la cadena truncado]&quot;;.
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static string License {
+        internal static System.Drawing.Bitmap caseiconblack {
             get {
-                return ResourceManager.GetString("License", resourceCulture);
+                object obj = ResourceManager.GetObject("caseiconblack", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
         /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Byte[].
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static byte[] Manual {
+        internal static System.Drawing.Bitmap dociconblack {
             get {
-                object obj = ResourceManager.GetObject("Manual", resourceCulture);
-                return ((byte[])(obj));
+                object obj = ResourceManager.GetObject("dociconblack", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap exiticonblack {
+            get {
+                object obj = ResourceManager.GetObject("exiticonblack", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap lockericon {
+            get {
+                object obj = ResourceManager.GetObject("lockericon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap logoacercade {
+            get {
+                object obj = ResourceManager.GetObject("logoacercade", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap logotienda {
+            get {
+                object obj = ResourceManager.GetObject("logotienda", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap producticonblack {
+            get {
+                object obj = ResourceManager.GetObject("producticonblack", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap righticon {
+            get {
+                object obj = ResourceManager.GetObject("righticon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap statsiconblack {
+            get {
+                object obj = ResourceManager.GetObject("statsiconblack", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap usericonblack {
+            get {
+                object obj = ResourceManager.GetObject("usericonblack", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap wrongicon {
+            get {
+                object obj = ResourceManager.GetObject("wrongicon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
     }

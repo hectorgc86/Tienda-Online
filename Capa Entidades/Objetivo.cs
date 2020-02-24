@@ -6,7 +6,7 @@ using System.Text;
 
 namespace Capa_Entidades
 {
-    public class Objetivo : Articulo
+    public class Objetivo
     {
         //Atributos
 
@@ -159,7 +159,7 @@ namespace Capa_Entidades
         //Sobrecarga del método ToString()
         public override string ToString()
         {
-            return base.ToString() + ", " +_tipo + ".";
+            return "#" + _ObjetivoID + "#" + _tipo + "#" + _montura + "#" + _focal + "#" + _apertura + "#" + _especiales;
         }
     }
 }

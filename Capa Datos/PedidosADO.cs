@@ -37,9 +37,9 @@ namespace Capa_Datos
 
             return listaPedidos;
         }
-        public Pedido LeerPedido(int id)
+        public List<Pedido> LeerPedido(int id)
         {
-            Pedido pedido = new Pedido();
+            List<Pedido> listaPedidos = new List<Pedido>();
             string aux;
 
             try
@@ -49,7 +49,7 @@ namespace Capa_Datos
                 {
                     aux = response.Content.ReadAsStringAsync().Result;
 
-                    pedido = JsonConvert.DeserializeObject<Pedido>(aux);
+                    listaPedidos = JsonConvert.DeserializeObject<List<Pedido>>(aux);
                 }
             }
             catch (Exception e)
@@ -57,7 +57,7 @@ namespace Capa_Datos
                 throw new ExternalException("Error:" + e);
             }
 
-            return pedido;
+            return listaPedidos;
         }
         // Creo un nuevo Pedido en la BD
         public bool InsertarPedido(int pedidoId, int usuarioId, DateTime fecha)
@@ -89,7 +89,6 @@ namespace Capa_Datos
             try
             {
                 HttpResponseMessage response = client.PutAsJsonAsync("api/pedidos/"+ pedido.PedidoID, pedido).Result;
-                
 
                 if (response.IsSuccessStatusCode)
                     return true;

@@ -60,7 +60,7 @@ namespace Capa_Datos
             return tv;
         }
         // Creo un nuevo Tv en la BD
-        public bool InsertarTv(string tvId, string panel, string resolucion, string hdReadyFullHd, int? pantalla, bool? tdt)
+        public bool InsertarTv(string tvId, string panel, string resolucion, string hdReadyFullHd, int? pantalla, int? tdt)
         {
             try
             {

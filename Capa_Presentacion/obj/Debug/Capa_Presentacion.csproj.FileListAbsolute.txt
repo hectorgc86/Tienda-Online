@@ -1,0 +1,66 @@
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_Validacion\Capa_Presentacion\bin\Debug\Capa_Presentacion.exe.config
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_Validacion\Capa_Presentacion\bin\Debug\Capa_Presentacion.exe
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_Validacion\Capa_Presentacion\bin\Debug\Capa_Presentacion.pdb
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_Validacion\Capa_Presentacion\bin\Debug\Capa Entidades.dll
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_Validacion\Capa_Presentacion\bin\Debug\Capa negocio.dll
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_Validacion\Capa_Presentacion\bin\Debug\Capa Datos.dll
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_Validacion\Capa_Presentacion\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_Validacion\Capa_Presentacion\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_Validacion\Capa_Presentacion\bin\Debug\Capa Entidades.pdb
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_Validacion\Capa_Presentacion\bin\Debug\Capa negocio.pdb
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_Validacion\Capa_Presentacion\bin\Debug\Capa negocio.dll.config
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_Validacion\Capa_Presentacion\bin\Debug\Capa Datos.pdb
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_Validacion\Capa_Presentacion\bin\Debug\Capa Datos.dll.config
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_Validacion\Capa_Presentacion\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_Validacion\Capa_Presentacion\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_Validacion\Capa_Presentacion\obj\Debug\Capa_Presentacion.csprojAssemblyReference.cache
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_Validacion\Capa_Presentacion\obj\Debug\Capa_Presentacion.exe.config
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_Validacion\Capa_Presentacion\obj\Debug\Capa_Presentacion.Properties.Resources.resources
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_Validacion\Capa_Presentacion\obj\Debug\Capa_Presentacion.csproj.GenerateResource.cache
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_Validacion\Capa_Presentacion\obj\Debug\Capa_Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_Validacion\Capa_Presentacion\obj\Debug\Capa_Presentacion.csproj.CopyComplete
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_Validacion\Capa_Presentacion\obj\Debug\Capa_Presentacion.exe
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_Validacion\Capa_Presentacion\obj\Debug\Capa_Presentacion.pdb
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_Validacion\Capa_Presentacion\obj\Debug\Capa_Presentacion.FormPrincipal.resources
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_Validacion\Capa_Presentacion\obj\Debug\Capa_Presentacion.FormUsuarios.resources
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_TiendaDAM\Capa_Presentacion\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_TiendaDAM\Capa_Presentacion\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_TiendaDAM\Capa_Presentacion\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_TiendaDAM\Capa_Presentacion\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_TiendaDAM\Capa_Presentacion\bin\Debug\Capa_Presentacion.exe.config
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_TiendaDAM\Capa_Presentacion\bin\Debug\Capa_Presentacion.exe
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_TiendaDAM\Capa_Presentacion\bin\Debug\Capa_Presentacion.pdb
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_TiendaDAM\Capa_Presentacion\bin\Debug\Capa Entidades.dll
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_TiendaDAM\Capa_Presentacion\bin\Debug\Capa negocio.dll
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_TiendaDAM\Capa_Presentacion\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_TiendaDAM\Capa_Presentacion\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_TiendaDAM\Capa_Presentacion\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_TiendaDAM\Capa_Presentacion\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_TiendaDAM\Capa_Presentacion\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_TiendaDAM\Capa_Presentacion\bin\Debug\Capa Datos.dll
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_TiendaDAM\Capa_Presentacion\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_TiendaDAM\Capa_Presentacion\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_TiendaDAM\Capa_Presentacion\bin\Debug\Capa Entidades.pdb
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_TiendaDAM\Capa_Presentacion\bin\Debug\Capa negocio.pdb
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_TiendaDAM\Capa_Presentacion\bin\Debug\Capa negocio.dll.config
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_TiendaDAM\Capa_Presentacion\bin\Debug\Capa Datos.pdb
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_TiendaDAM\Capa_Presentacion\bin\Debug\Capa Datos.dll.config
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_TiendaDAM\Capa_Presentacion\obj\Debug\Capa_Presentacion.csprojAssemblyReference.cache
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_TiendaDAM\Capa_Presentacion\obj\Debug\Capa_Presentacion.AcercaDe.resources
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_TiendaDAM\Capa_Presentacion\obj\Debug\Capa_Presentacion.FacturaRpt.resources
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_TiendaDAM\Capa_Presentacion\obj\Debug\Capa_Presentacion.Login.resources
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_TiendaDAM\Capa_Presentacion\obj\Debug\Capa_Presentacion.PedidosBuscador.resources
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_TiendaDAM\Capa_Presentacion\obj\Debug\Capa_Presentacion.Principal.resources
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_TiendaDAM\Capa_Presentacion\obj\Debug\Capa_Presentacion.PedidosFormulario.resources
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_TiendaDAM\Capa_Presentacion\obj\Debug\Capa_Presentacion.ProductosFormulario.resources
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_TiendaDAM\Capa_Presentacion\obj\Debug\Capa_Presentacion.Estadisticas.resources
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_TiendaDAM\Capa_Presentacion\obj\Debug\Capa_Presentacion.UsuariosFormulario.resources
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_TiendaDAM\Capa_Presentacion\obj\Debug\Capa_Presentacion.UsuariosBuscador.resources
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_TiendaDAM\Capa_Presentacion\obj\Debug\Capa_Presentacion.Properties.Resources.resources
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_TiendaDAM\Capa_Presentacion\obj\Debug\Capa_Presentacion.csproj.GenerateResource.cache
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_TiendaDAM\Capa_Presentacion\obj\Debug\RdlCompile.cache
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_TiendaDAM\Capa_Presentacion\obj\Debug\RdlCompile.compiled
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_TiendaDAM\Capa_Presentacion\obj\Debug\Capa_Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_TiendaDAM\Capa_Presentacion\obj\Debug\Capa_Presentacion.csproj.CopyComplete
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_TiendaDAM\Capa_Presentacion\obj\Debug\Capa_Presentacion.exe
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_TiendaDAM\Capa_Presentacion\obj\Debug\Capa_Presentacion.pdb

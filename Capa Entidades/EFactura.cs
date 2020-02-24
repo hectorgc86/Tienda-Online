@@ -15,9 +15,6 @@ namespace Capa_Entidades
         public string Dni { get; set; }
         public int NumeroFactura { get; set; }
         public DateTime Fecha { get; set; }
-        public decimal Subtotal { get; set; }
-        public decimal Iva { get; set; }
-        public decimal Total { get; set; }
 
         public List<EArticulo> Detail = new List<EArticulo>();
     }

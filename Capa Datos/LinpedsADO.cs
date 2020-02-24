@@ -37,7 +37,7 @@ namespace Capa_Datos
 
             return listaLinpeds;
         }
-        public List<Linped> LeerLinped(int id)
+        public List<Linped> LeerLinped(string id)
         {
             List<Linped> listaLinpeds = new List<Linped>();
             string aux;
@@ -88,7 +88,7 @@ namespace Capa_Datos
         {
             try
             {
-                HttpResponseMessage response = client.PutAsJsonAsync("api/linpeds/"+linped.PedidoID+"/"+linped.Linea, linped).Result;
+                HttpResponseMessage response = client.PutAsJsonAsync("api/linpeds/"+linped.PedidoID, linped).Result;
 
                 if (response.IsSuccessStatusCode)
                     return true;

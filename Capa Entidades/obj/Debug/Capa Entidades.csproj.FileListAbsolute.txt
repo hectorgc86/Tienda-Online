@@ -1,0 +1,29 @@
+C:\Users\usuario\Documents\Visual Studio 2017\Projects\Proyectos evaluacion\TiendaOnline\Capa Entidades\bin\Debug\Capa Entidades.dll
+C:\Users\usuario\Documents\Visual Studio 2017\Projects\Proyectos evaluacion\TiendaOnline\Capa Entidades\bin\Debug\Capa Entidades.pdb
+C:\Users\usuario\Documents\Visual Studio 2017\Projects\Proyectos evaluacion\TiendaOnline\Capa Entidades\obj\Debug\Capa Entidades.csprojAssemblyReference.cache
+C:\Users\usuario\Documents\Visual Studio 2017\Projects\Proyectos evaluacion\TiendaOnline\Capa Entidades\obj\Debug\Capa Entidades.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Documents\Visual Studio 2017\Projects\Proyectos evaluacion\TiendaOnline\Capa Entidades\obj\Debug\Capa Entidades.dll
+C:\Users\usuario\Documents\Visual Studio 2017\Projects\Proyectos evaluacion\TiendaOnline\Capa Entidades\obj\Debug\Capa Entidades.pdb
+C:\Users\Antonio\Desktop\TiendaOnline\Capa Entidades\bin\Debug\Capa Entidades.dll
+C:\Users\Antonio\Desktop\TiendaOnline\Capa Entidades\bin\Debug\Capa Entidades.pdb
+C:\Users\Antonio\Desktop\TiendaOnline\Capa Entidades\obj\Debug\Capa Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Antonio\Desktop\TiendaOnline\Capa Entidades\obj\Debug\Capa Entidades.dll
+C:\Users\Antonio\Desktop\TiendaOnline\Capa Entidades\obj\Debug\Capa Entidades.pdb
+C:\Users\Héctor\Desktop\ApiTienda\Capa Entidades\bin\Debug\Capa Entidades.dll
+C:\Users\Héctor\Desktop\ApiTienda\Capa Entidades\bin\Debug\Capa Entidades.pdb
+C:\Users\Héctor\Desktop\ApiTienda\Capa Entidades\obj\Debug\Capa Entidades.csprojAssemblyReference.cache
+C:\Users\Héctor\Desktop\ApiTienda\Capa Entidades\obj\Debug\Capa Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Héctor\Desktop\ApiTienda\Capa Entidades\obj\Debug\Capa Entidades.dll
+C:\Users\Héctor\Desktop\ApiTienda\Capa Entidades\obj\Debug\Capa Entidades.pdb
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_Capas\Capa Entidades\bin\Debug\Capa Entidades.dll
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_Capas\Capa Entidades\bin\Debug\Capa Entidades.pdb
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_Capas\Capa Entidades\obj\Debug\Capa Entidades.csprojAssemblyReference.cache
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_Capas\Capa Entidades\obj\Debug\Capa Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_Capas\Capa Entidades\obj\Debug\Capa Entidades.dll
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_Capas\Capa Entidades\obj\Debug\Capa Entidades.pdb
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_TiendaDAM\Capa Entidades\bin\Debug\Capa Entidades.dll
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_TiendaDAM\Capa Entidades\bin\Debug\Capa Entidades.pdb
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_TiendaDAM\Capa Entidades\obj\Debug\Capa Entidades.csprojAssemblyReference.cache
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_TiendaDAM\Capa Entidades\obj\Debug\Capa Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_TiendaDAM\Capa Entidades\obj\Debug\Capa Entidades.dll
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_TiendaDAM\Capa Entidades\obj\Debug\Capa Entidades.pdb

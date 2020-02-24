@@ -6,7 +6,7 @@ using System.Text;
 
 namespace Capa_Entidades
 {
-    public class Memoria : Articulo
+    public class Memoria
     {
         //Atributos
 
@@ -77,7 +77,7 @@ namespace Capa_Entidades
         //Sobrecarga del método ToString()
         public override string ToString()
         {
-            return base.ToString() + ", " + _tipo + ".";
+            return "#" + _MemoriaID + "#" + _tipo;
         }
     }
 }

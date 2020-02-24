@@ -6,7 +6,7 @@ using System.Text;
 
 namespace Capa_Entidades
 {
-   public class Tv: Articulo
+   public class Tv
     {
         //Atributos
 
@@ -15,7 +15,7 @@ namespace Capa_Entidades
         private string _resolucion;
         private string _hdreadyfullhd;
         private int? _pantalla;
-        private bool? _tdt;
+        private int? _tdt;
 
         //Constructor vacío
         public Tv()
@@ -28,7 +28,7 @@ namespace Capa_Entidades
         }
 
         //Constructor con parámetros
-        public Tv(string tvId, string panel, string resolucion, string hdReadyFullHd, int? pantalla, bool? tdt)
+        public Tv(string tvId, string panel, string resolucion, string hdReadyFullHd, int? pantalla, int? tdt)
         {
             TvID = tvId;
             Panel = panel;
@@ -145,15 +145,28 @@ namespace Capa_Entidades
                
             }
         }
-        public bool? Tdt
+        public int? Tdt
         {
-            get => _tdt; set { _tdt = value;}
+            get => _tdt; set
+            {
+                //Compruebo que respete el valor máximo y mínimo y que pueda ser null
+
+                if (value <= 9 && value >= 0 || !value.HasValue)
+                {
+                    _tdt = value;
+                }
+                else
+                {
+                    throw new ArgumentException("Valor numérico incorrecto para 'tdt'");
+                }
+              
+            }
         }
 
         //Sobrecarga del método ToString()
         public override string ToString()
         {
-            return base.ToString() + ", " +_resolucion + ".";
+            return "#" + _TvID + "#" + _panel + "#" + _resolucion + "#" + _hdreadyfullhd + "#" + _pantalla + "#" + _tdt;
         }
     }
 }

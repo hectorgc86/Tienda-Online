@@ -26,12 +26,13 @@ namespace Capa_Entidades
         }
 
         //Constructor con parámetros
-        public Pedido(int pedidoID,int usuarioId, DateTime fecha)
+        public Pedido(int pedidoId,int usuarioId, DateTime fecha)
         {
-            PedidoID = pedidoID;
+            PedidoID = pedidoId;
             UsuarioID = usuarioId;
             Fecha = fecha;
             LineasPedido = new List<Linped>();
+            
         }
 
         //Constructor copia

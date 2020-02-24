@@ -180,15 +180,10 @@ namespace Capa_Entidades
         //Método de asignación de una nueva imagen creada
         private byte?[] AsignaImagen(byte?[] imagen)
         {
-            byte?[] nuevaImagen = null;
-
-            if (imagen != null)
+           byte?[]nuevaImagen = new byte?[imagen.Length];
+            for (int i = 0; i < imagen.Length; i++)
             {
-                nuevaImagen = new byte?[imagen.Length];
-                for (int i = 0; i < imagen.Length; i++)
-                {
-                    nuevaImagen[i] = imagen[i];
-                }
+                nuevaImagen[i] = imagen[i];
             }
 
             return nuevaImagen;
@@ -197,7 +192,8 @@ namespace Capa_Entidades
         //Sobrecarga del método ToString()
         public override string ToString()
         {
-            return _marcaID + ", " + _nombre;
+            return "#" + _articuloID + "#" + _nombre + "#" + _marcaID + "#" + _urlimagen + "#" + Especificaciones + "#" + _tipoArticuloID
+                + "#" + _pvp + "#" + Imagen;
         }
     }
 }

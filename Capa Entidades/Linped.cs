@@ -77,7 +77,7 @@ namespace Capa_Entidades
             get => _PedidoID; set
             {
                 //Compruebo que respete el valor máximo y mínimo 
-                if (value <= 999999999 && value > 0)
+                if (value <= 99999999999 && value > 0)
                 {
                     _PedidoID = value;
                 }
@@ -93,7 +93,7 @@ namespace Capa_Entidades
             get => _linea; set
             {
                 //Compruebo que respete el valor máximo y mínimo 
-                if (value <= 999999999 && value > 0)
+                if (value <= 99999999999 && value > 0)
                 {
                     _linea = value;
                 }
@@ -109,7 +109,7 @@ namespace Capa_Entidades
             get => _cantidad; set
             {
                 //Compruebo que respete el valor máximo y mínimo 
-                if (value <= 999999999 && value >= 0 )
+                if (value <= 99999999999 && value >= 0 )
                 {
                     _cantidad = value;
                 }

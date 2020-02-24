@@ -85,10 +85,15 @@ namespace Capa_Entidades
         {
             get => _entrega; set
             {
-             
-              
+                //Compruebo que entrega coincida con alguno de los valores del set de estados posibles de entrega
+                if(Array.IndexOf(_estadosEntrega,value) != -1)
+                {
                     _entrega = value;
-            
+                }
+                else
+                {
+                    throw new ArgumentException("Valor incorrecto para 'entrega'");
+                }
 
             }
         }

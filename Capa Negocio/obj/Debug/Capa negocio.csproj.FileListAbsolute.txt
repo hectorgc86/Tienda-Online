@@ -1,0 +1,94 @@
+C:\Users\usuario\Documents\Visual Studio 2017\Projects\Proyectos evaluacion\TiendaOnline\Capa negocio\bin\Debug\Capa negocio.dll
+C:\Users\usuario\Documents\Visual Studio 2017\Projects\Proyectos evaluacion\TiendaOnline\Capa negocio\bin\Debug\Capa negocio.pdb
+C:\Users\usuario\Documents\Visual Studio 2017\Projects\Proyectos evaluacion\TiendaOnline\Capa negocio\bin\Debug\Capa DAtos.dll
+C:\Users\usuario\Documents\Visual Studio 2017\Projects\Proyectos evaluacion\TiendaOnline\Capa negocio\bin\Debug\Capa Entidades.dll
+C:\Users\usuario\Documents\Visual Studio 2017\Projects\Proyectos evaluacion\TiendaOnline\Capa negocio\bin\Debug\Capa DAtos.pdb
+C:\Users\usuario\Documents\Visual Studio 2017\Projects\Proyectos evaluacion\TiendaOnline\Capa negocio\bin\Debug\Capa Entidades.pdb
+C:\Users\usuario\Documents\Visual Studio 2017\Projects\Proyectos evaluacion\TiendaOnline\Capa negocio\obj\Debug\Capa negocio.csprojAssemblyReference.cache
+C:\Users\usuario\Documents\Visual Studio 2017\Projects\Proyectos evaluacion\TiendaOnline\Capa negocio\obj\Debug\Capa negocio.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Documents\Visual Studio 2017\Projects\Proyectos evaluacion\TiendaOnline\Capa negocio\obj\Debug\Capa negocio.csproj.CopyComplete
+C:\Users\usuario\Documents\Visual Studio 2017\Projects\Proyectos evaluacion\TiendaOnline\Capa negocio\obj\Debug\Capa negocio.dll
+C:\Users\usuario\Documents\Visual Studio 2017\Projects\Proyectos evaluacion\TiendaOnline\Capa negocio\obj\Debug\Capa negocio.pdb
+C:\Users\Antonio\Desktop\TiendaOnline\Capa Negocio\bin\Debug\Capa negocio.dll.config
+C:\Users\Antonio\Desktop\TiendaOnline\Capa Negocio\bin\Debug\Capa negocio.dll
+C:\Users\Antonio\Desktop\TiendaOnline\Capa Negocio\bin\Debug\Capa negocio.pdb
+C:\Users\Antonio\Desktop\TiendaOnline\Capa Negocio\bin\Debug\Capa Datos.dll
+C:\Users\Antonio\Desktop\TiendaOnline\Capa Negocio\bin\Debug\Capa Entidades.dll
+C:\Users\Antonio\Desktop\TiendaOnline\Capa Negocio\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Antonio\Desktop\TiendaOnline\Capa Negocio\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Antonio\Desktop\TiendaOnline\Capa Negocio\bin\Debug\Capa Datos.pdb
+C:\Users\Antonio\Desktop\TiendaOnline\Capa Negocio\bin\Debug\Capa Datos.dll.config
+C:\Users\Antonio\Desktop\TiendaOnline\Capa Negocio\bin\Debug\Capa Entidades.pdb
+C:\Users\Antonio\Desktop\TiendaOnline\Capa Negocio\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Antonio\Desktop\TiendaOnline\Capa Negocio\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Antonio\Desktop\TiendaOnline\Capa Negocio\obj\Debug\Capa Negocio.csprojAssemblyReference.cache
+C:\Users\Antonio\Desktop\TiendaOnline\Capa Negocio\obj\Debug\Capa Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Antonio\Desktop\TiendaOnline\Capa Negocio\obj\Debug\Capa Negocio.csproj.CopyComplete
+C:\Users\Antonio\Desktop\TiendaOnline\Capa Negocio\obj\Debug\Capa negocio.dll
+C:\Users\Antonio\Desktop\TiendaOnline\Capa Negocio\obj\Debug\Capa negocio.pdb
+C:\Users\Héctor\Desktop\ApiTienda\Capa Negocio\bin\Debug\Capa negocio.dll.config
+C:\Users\Héctor\Desktop\ApiTienda\Capa Negocio\bin\Debug\Capa negocio.dll
+C:\Users\Héctor\Desktop\ApiTienda\Capa Negocio\bin\Debug\Capa negocio.pdb
+C:\Users\Héctor\Desktop\ApiTienda\Capa Negocio\bin\Debug\Capa Datos.dll
+C:\Users\Héctor\Desktop\ApiTienda\Capa Negocio\bin\Debug\Capa Entidades.dll
+C:\Users\Héctor\Desktop\ApiTienda\Capa Negocio\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Héctor\Desktop\ApiTienda\Capa Negocio\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Héctor\Desktop\ApiTienda\Capa Negocio\bin\Debug\Capa Datos.pdb
+C:\Users\Héctor\Desktop\ApiTienda\Capa Negocio\bin\Debug\Capa Datos.dll.config
+C:\Users\Héctor\Desktop\ApiTienda\Capa Negocio\bin\Debug\Capa Entidades.pdb
+C:\Users\Héctor\Desktop\ApiTienda\Capa Negocio\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Héctor\Desktop\ApiTienda\Capa Negocio\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Héctor\Desktop\ApiTienda\Capa Negocio\obj\Debug\Capa Negocio.csprojAssemblyReference.cache
+C:\Users\Héctor\Desktop\ApiTienda\Capa Negocio\obj\Debug\Capa Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Héctor\Desktop\ApiTienda\Capa Negocio\obj\Debug\Capa Negocio.csproj.CopyComplete
+C:\Users\Héctor\Desktop\ApiTienda\Capa Negocio\obj\Debug\Capa negocio.dll
+C:\Users\Héctor\Desktop\ApiTienda\Capa Negocio\obj\Debug\Capa negocio.pdb
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_Capas\Capa Negocio\obj\Debug\Capa Negocio.csprojAssemblyReference.cache
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_Capas\Capa Negocio\obj\Debug\Capa Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_Capas\Capa Negocio\bin\Debug\Capa negocio.dll.config
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_Capas\Capa Negocio\bin\Debug\Capa negocio.dll
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_Capas\Capa Negocio\bin\Debug\Capa negocio.pdb
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_Capas\Capa Negocio\bin\Debug\Capa Datos.dll
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_Capas\Capa Negocio\bin\Debug\Capa Entidades.dll
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_Capas\Capa Negocio\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_Capas\Capa Negocio\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_Capas\Capa Negocio\bin\Debug\Capa Datos.pdb
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_Capas\Capa Negocio\bin\Debug\Capa Datos.dll.config
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_Capas\Capa Negocio\bin\Debug\Capa Entidades.pdb
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_Capas\Capa Negocio\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_Capas\Capa Negocio\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_Capas\Capa Negocio\obj\Debug\Capa Negocio.csproj.CopyComplete
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_Capas\Capa Negocio\obj\Debug\Capa negocio.dll
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_Capas\Capa Negocio\obj\Debug\Capa negocio.pdb
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_Validacion\Capa Negocio\bin\Debug\Capa negocio.dll.config
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_Validacion\Capa Negocio\bin\Debug\Capa negocio.dll
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_Validacion\Capa Negocio\bin\Debug\Capa negocio.pdb
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_Validacion\Capa Negocio\bin\Debug\Capa Datos.dll
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_Validacion\Capa Negocio\bin\Debug\Capa Entidades.dll
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_Validacion\Capa Negocio\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_Validacion\Capa Negocio\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_Validacion\Capa Negocio\bin\Debug\Capa Datos.pdb
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_Validacion\Capa Negocio\bin\Debug\Capa Datos.dll.config
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_Validacion\Capa Negocio\bin\Debug\Capa Entidades.pdb
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_Validacion\Capa Negocio\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_Validacion\Capa Negocio\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_Validacion\Capa Negocio\obj\Debug\Capa Negocio.csprojAssemblyReference.cache
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_Validacion\Capa Negocio\obj\Debug\Capa Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_Validacion\Capa Negocio\obj\Debug\Capa Negocio.csproj.CopyComplete
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_Validacion\Capa Negocio\obj\Debug\Capa negocio.dll
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_Validacion\Capa Negocio\obj\Debug\Capa negocio.pdb
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_TiendaDAM\Capa Negocio\bin\Debug\Capa negocio.dll.config
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_TiendaDAM\Capa Negocio\bin\Debug\Capa negocio.dll
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_TiendaDAM\Capa Negocio\bin\Debug\Capa negocio.pdb
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_TiendaDAM\Capa Negocio\bin\Debug\Capa Datos.dll
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_TiendaDAM\Capa Negocio\bin\Debug\Capa Entidades.dll
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_TiendaDAM\Capa Negocio\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_TiendaDAM\Capa Negocio\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_TiendaDAM\Capa Negocio\bin\Debug\Capa Datos.pdb
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_TiendaDAM\Capa Negocio\bin\Debug\Capa Datos.dll.config
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_TiendaDAM\Capa Negocio\bin\Debug\Capa Entidades.pdb
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_TiendaDAM\Capa Negocio\obj\Debug\Capa Negocio.csprojAssemblyReference.cache
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_TiendaDAM\Capa Negocio\obj\Debug\Capa Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_TiendaDAM\Capa Negocio\obj\Debug\Capa Negocio.csproj.CopyComplete
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_TiendaDAM\Capa Negocio\obj\Debug\Capa negocio.dll
+C:\Users\Héctor\Documents\Desarrollo Interfaces\Granja_Hector_TiendaDAM\Capa Negocio\obj\Debug\Capa negocio.pdb

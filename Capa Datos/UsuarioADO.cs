@@ -37,14 +37,14 @@ namespace Capa_Datos
 
             return listaUsuarios;
         }
-        public Usuario LeerUsuario(int id)
+        public Usuario LeerUsuario(string id)
         {
             Usuario usu = new Usuario();
             string aux;
 
             try
             {
-                HttpResponseMessage response = client.GetAsync("api/usuarios/" + id).Result;
+                HttpResponseMessage response = client.GetAsync("api/usuarios/"+id).Result;
                 if (response.IsSuccessStatusCode)
                 {
                     aux = response.Content.ReadAsStringAsync().Result;
@@ -64,9 +64,9 @@ namespace Capa_Datos
         {
             try
             {
-                Usuario usu = new Usuario(nombre, apellidos, email, password, dni, telefono, calle, calle2, codPos, puebloID, provinciaId, nacido, usuarioId);
+                Usuario usu = new Usuario(nombre,apellidos,email,password,dni,telefono,calle,calle2,codPos,puebloID,provinciaId,nacido,usuarioId);
 
-                HttpResponseMessage response = client.PostAsJsonAsync("api/usuarios", usu).Result;
+                HttpResponseMessage response = client.PostAsJsonAsync("api/usuarios",usu).Result;
                 //var response = client.PostAsync("api/usuarios", new StringContent(new JavaScriptSerializer().Serialize(usu), Encoding.UTF8, "application/json")).Result;
                 if (response.IsSuccessStatusCode)
                 {
@@ -82,13 +82,14 @@ namespace Capa_Datos
                 Console.WriteLine("Error " + e);
                 throw;
             }
-        }
 
+            return true;
+        }
         public bool ActualizarUsuario(Usuario usuario)
         {
             try
             {
-                HttpResponseMessage response = client.PutAsJsonAsync("api/usuarios/" + usuario.UsuarioId, usuario).Result;
+                HttpResponseMessage response = client.PutAsJsonAsync("api/usuarios/"+usuario.UsuarioID, usuario).Result;
 
                 if (response.IsSuccessStatusCode)
                     return true;
@@ -101,12 +102,12 @@ namespace Capa_Datos
             }
         }
 
-        public bool BorrarUsuario(int id)
+        public bool BorrarUsuario(string id)
         {
             try
             {
 
-                HttpResponseMessage response = client.DeleteAsync("api/usuarios/" + id).Result;
+                HttpResponseMessage response = client.DeleteAsync("api/usuarios/"+id).Result;
 
                 if (response.IsSuccessStatusCode)
                     return true;

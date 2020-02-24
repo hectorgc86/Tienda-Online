@@ -6,7 +6,7 @@ using System.Text;
 
 namespace Capa_Entidades
 {
-    public class Camara : Articulo
+    public class Camara
     {
         //Atributos
 
@@ -62,7 +62,7 @@ namespace Capa_Entidades
         ~Camara()
         {
             _CamaraID = null;
-            _resolucion = null;
+            _resolucion = null; 
             _sensor = null;
             _tipo = null;
             _factor = null;
@@ -86,7 +86,7 @@ namespace Capa_Entidades
                 {
                     throw new ArgumentException("Longitud de texto incorrecta para 'CamaraID'");
                 }
-
+               
             }
         }
         public string Resolucion
@@ -94,11 +94,15 @@ namespace Capa_Entidades
             get => _resolucion; set
             {
                 //Compruebo que respete la cantidad máxima de caracteres
-                if (!string.IsNullOrEmpty(value) && value.Length <= 15)
+                if (value.Length <= 15)
                 {
                     _resolucion = value;
                 }
-
+                else
+                {
+                    throw new ArgumentException("Longitud de texto incorrecta para 'resolucion'");
+                }
+             
             }
         }
         public string Tipo
@@ -114,7 +118,7 @@ namespace Capa_Entidades
                 {
                     throw new ArgumentException("Longitud de texto incorrecta para 'tipo'");
                 }
-
+               
             }
         }
         public string Factor
@@ -122,12 +126,15 @@ namespace Capa_Entidades
             get => _factor; set
             {
                 //Compruebo que respete la cantidad máxima de caracteres
-                if (!string.IsNullOrEmpty(value) && value.Length <= 10)
+                if (value.Length <= 10)
                 {
                     _factor = value;
                 }
-
-
+                else
+                {
+                    throw new ArgumentException("Longitud de texto incorrecta para 'factor'");
+                }
+               
             }
         }
         public string Objetivo
@@ -136,12 +143,15 @@ namespace Capa_Entidades
             get => _objetivo; set
             {
                 //Compruebo que respete la cantidad máxima de caracteres
-                if (!string.IsNullOrEmpty(value) && value.Length <= 15)
+                if (value.Length <= 15)
                 {
                     _objetivo = value;
                 }
-
-
+                else
+                {
+                    throw new ArgumentException("Longitud de texto incorrecta para 'objetivo'");
+                }
+               
             }
         }
         public string Pantalla
@@ -149,12 +159,15 @@ namespace Capa_Entidades
             get => _pantalla; set
             {
                 //Compruebo que respete la cantidad máxima de caracteres
-                if (!string.IsNullOrEmpty(value) && value.Length <= 20)
+                if (value.Length <= 20)
                 {
                     _pantalla = value;
                 }
-
-
+                else
+                {
+                    throw new ArgumentException("Longitud de texto incorrecta para 'pantalla'");
+                }
+              
             }
         }
         public string Zoom
@@ -162,14 +175,17 @@ namespace Capa_Entidades
             get => _zoom; set
             {
                 //Compruebo que respete la cantidad máxima de caracteres
-                if (!string.IsNullOrEmpty(value) && value.Length <= 40)
+                if (value.Length <= 40)
                 {
                     _zoom = value;
                 }
-
+                else
+                {
+                    throw new ArgumentException("Longitud de texto incorrecta para 'zoom'");
+                }
             }
         }
-
+       
         public string Sensor
         {
             get => _sensor; set
@@ -189,7 +205,9 @@ namespace Capa_Entidades
         //Sobrecarga del método ToString()
         public override string ToString()
         {
-            return base.ToString() +  ", " + _tipo + ".";
+            return "#" + _CamaraID + "#" + _resolucion + "#" + _sensor + "#" + _tipo + "#" + _factor + "#" + _objetivo
+
+                + "#" + _pantalla + "#" + _zoom;
         }
 
     }

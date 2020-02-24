@@ -13,43 +13,43 @@ namespace Capa_Entidades
         private int _tipoArticuloID;
         private string _Descripcion;
 
-
         //Constructor vacío
         public TipoArticulo()
         {
-            TipoArticuloID = 0;
+            _tipoArticuloID = 0;
             _Descripcion = "";
         }
 
         //Constructor con parámetros
-        public TipoArticulo(int tipoArticuloID, string descripcion)
+        public TipoArticulo(int tipoArticuloId, string descripcion)
         {
-            TipoArticuloID = tipoArticuloID;
+            _tipoArticuloID = tipoArticuloId;
             Descripcion = descripcion;
         }
 
         //Constructor copia
         public TipoArticulo(TipoArticulo tipoArticulo)
         {
-            TipoArticuloID = tipoArticulo.TipoArticuloID;
+            _tipoArticuloID = tipoArticulo.TipoArticuloID;
             _Descripcion = tipoArticulo.Descripcion;
         }
 
         //Destructor
         ~TipoArticulo()
         {
-            TipoArticuloID = 0;
+            _tipoArticuloID = 0;
             _Descripcion = null;
         }
 
         //Getters y Setters
+        public int TipoArticuloID{ get => _tipoArticuloID; } //Propiedad sin setter por ser autoincremental por BBDD.
         public string Descripcion
         {
             get => _Descripcion; set
             {
                 /*Compruebo que respete la cantidad máxima de caracteres y que no sea
                   ni nulo ni todo espacios en blanco*/
-                if (value.Length <= 8 && !string.IsNullOrWhiteSpace(value))
+                if (value.Length <= 7 && !string.IsNullOrWhiteSpace(value))
                 {
                     _Descripcion = value;
                 }
@@ -60,13 +60,10 @@ namespace Capa_Entidades
             }
         }
 
-        public int TipoArticuloID { get => _tipoArticuloID; set => _tipoArticuloID = value; }
-
-
         //Sobrecarga del método ToString()
         public override string ToString()
         {
-            return "#" + TipoArticuloID + "#" + _Descripcion;
+            return "#" + _tipoArticuloID + "#" + _Descripcion;
         }
     }
 }

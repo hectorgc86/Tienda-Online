@@ -22,10 +22,7 @@ namespace Capa_Entidades
         private string _puebloID;
         private string _provinciaID;
         private DateTime? _nacido;
-        private int _usuarioId;
-        private int v;
-        private string nom;
-        private string pas;
+        private int _usuarioID;
 
         //Constructor vacío
         public Usuario()
@@ -41,7 +38,7 @@ namespace Capa_Entidades
             _codPos = "";
             _puebloID = "";
             _provinciaID = "";
-            _usuarioId = 0;
+            _usuarioID = 0;
         }
 
         //Constructor con parámetros
@@ -59,7 +56,7 @@ namespace Capa_Entidades
             PuebloID = puebloID;
             ProvinciaID = provinciaID;
             Nacido = nacido;
-            UsuarioId = usuarioID;
+            UsuarioID = usuarioID;
         }
 
         //Constructor copia
@@ -82,14 +79,7 @@ namespace Capa_Entidades
                 _nacido = null;
             }
       
-            _usuarioId = usuario.UsuarioId;
-        }
-
-        public Usuario(int v, string nom, string pas)
-        {
-            this.v = v;
-            this.nom = nom;
-            this.pas = pas;
+            _usuarioID = usuario.UsuarioID;
         }
 
         //Destructor
@@ -107,7 +97,7 @@ namespace Capa_Entidades
             _puebloID = null;
             _provinciaID = null;
             _nacido = null;
-            _usuarioId = 0;
+            _usuarioID = 0;
         }
 
 
@@ -279,11 +269,14 @@ namespace Capa_Entidades
                 /*Compruebo que respete la cantidad máxima de caracteres y que no sea
                  ni nulo ni todo espacios en blanco*/
 
-                if (!string.IsNullOrWhiteSpace(value) && value.Length <= 4)
+                if (value.Length <= 4 && !string.IsNullOrWhiteSpace(value))
                 {
                     _puebloID = value;
                 }
-               
+                else
+                {
+                    throw new ArgumentException("Longitud de texto incorrecta para 'puebloID'");
+                }
              
             }
         }
@@ -319,14 +312,14 @@ namespace Capa_Entidades
                 }
             }
         }
-        public int UsuarioId { get; set; } //Propiedad sin setter por ser autoincremental por BBDD.
+        public int UsuarioID { get; set; } //Propiedad sin setter por ser autoincremental por BBDD.
 
 
         //Sobrecarga del método ToString()
         public override string ToString()
         {
             return "#" + _nombre + "#" + _apellidos + "#" + _email + "#" + _password + "#" + _dni + "#" + _telefono
-                + "#" + _calle + "#" + _calle2 + "#" + _codPos + "#" + _puebloID + "#" + _provinciaID + "#" + _nacido + "#" + _usuarioId;
+                + "#" + _calle + "#" + _calle2 + "#" + _codPos + "#" + _puebloID + "#" + _provinciaID + "#" + _nacido + "#" + _usuarioID;
         }
 
         //Método de comparación por email
